@@ -172,7 +172,9 @@ function Main() {
 
 export default function App() {
   return (
-  <NavBar />
-  <Main />;
-  );  
+    <div>
+      <NavBar />
+      <Main />;
+    </div>
+  );
 }
