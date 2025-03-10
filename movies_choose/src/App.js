@@ -73,7 +73,11 @@ function NavBar() {
   );
 }
 
-function Main() {}
+function Main() {
+  return (
+    
+  )
+}
 
 export default function App() {
   const [movies, setMovies] = useState(tempMovieData);
