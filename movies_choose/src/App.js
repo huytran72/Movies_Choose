@@ -85,6 +85,7 @@ export default function App() {
 
   return (
     <>
+      <NavBar />
       <main className="main">
         <div className="box">
           <button
