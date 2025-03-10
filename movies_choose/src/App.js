@@ -50,6 +50,15 @@ const tempWatchedData = [
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
+export default function App() {
+  return (
+    <div>
+      <NavBar />
+      <Main />;
+    </div>
+  );
+}
+
 function NavBar() {
   const [query, setQuery] = useState("");
 
@@ -167,14 +176,5 @@ function Main() {
         )}
       </div>
     </main>
-  );
-}
-
-export default function App() {
-  return (
-    <div>
-      <NavBar />
-      <Main />;
-    </div>
   );
 }
