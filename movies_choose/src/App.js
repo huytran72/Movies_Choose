@@ -51,6 +51,8 @@ const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
 function NavBar() {
+  const [query, setQuery] = useState("");
+
   return (
     <nav className="nav-bar">
       <div className="logo">
@@ -72,7 +74,6 @@ function NavBar() {
 }
 
 export default function App() {
-  const [query, setQuery] = useState("");
   const [movies, setMovies] = useState(tempMovieData);
   const [watched, setWatched] = useState(tempWatchedData);
   const [isOpen1, setIsOpen1] = useState(true);
