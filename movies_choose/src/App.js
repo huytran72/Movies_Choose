@@ -171,5 +171,8 @@ function Main() {
 }
 
 export default function App() {
-  return <NavBar />;
+  return (
+  <NavBar />
+  <Main />;
+  );  
 }
