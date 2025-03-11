@@ -76,7 +76,9 @@ function NavBar() {
   );
 }
 
-function Search() {}
+function Search() {
+  return ();  
+}
 
 function Main() {
   const [movies, setMovies] = useState(tempMovieData);
