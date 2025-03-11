@@ -92,7 +92,11 @@ function Search() {
 }
 
 function Numresults() {
-  return ();
+  return (
+    <p className="num-results">
+      Found <strong>X</strong> results
+    </p>
+  );
 }
 
 function Main() {
