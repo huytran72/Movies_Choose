@@ -70,7 +70,9 @@ function NavBar() {
   );
 }
 
-function Logo() {}
+function Logo() {
+  return ();
+}
 
 function Search() {
   const [query, setQuery] = useState("");
