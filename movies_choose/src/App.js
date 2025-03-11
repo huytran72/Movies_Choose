@@ -62,8 +62,9 @@ export default function App() {
 function NavBar() {
   return (
     <nav className="nav-bar">
-      <Search />
       <Logo />
+      <Search />
+      <NumResults />
     </nav>
   );
 }
@@ -91,7 +92,7 @@ function Search() {
   );
 }
 
-function Numresults() {
+function NumResults() {
   return (
     <p className="num-results">
       Found <strong>X</strong> results
