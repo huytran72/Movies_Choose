@@ -71,7 +71,12 @@ function NavBar() {
 }
 
 function Logo() {
-  return ();
+  return (
+    <div className="logo">
+      <span role="img">🍿</span>
+      <h1>MoviesChoose</h1>
+    </div>
+  );
 }
 
 function Search() {
