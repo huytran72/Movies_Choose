@@ -60,8 +60,6 @@ export default function App() {
 }
 
 function NavBar() {
-  const [query, setQuery] = useState("");
-
   return (
     <nav className="nav-bar">
       <div className="logo">
@@ -77,6 +75,8 @@ function NavBar() {
 }
 
 function Search() {
+  const [query, setQuery] = useState("");
+
   return (
     <input
       className="search"
