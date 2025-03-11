@@ -70,6 +70,8 @@ function NavBar() {
   );
 }
 
+function Logo() {}
+
 function Search() {
   const [query, setQuery] = useState("");
 
