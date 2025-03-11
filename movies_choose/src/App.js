@@ -62,10 +62,6 @@ export default function App() {
 function NavBar() {
   return (
     <nav className="nav-bar">
-      <div className="logo">
-        <span role="img">🍿</span>
-        <h1>MoviesChoose</h1>
-      </div>
       <Search />
       <p className="num-results">
         Found <strong>X</strong> results
