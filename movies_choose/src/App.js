@@ -63,6 +63,7 @@ function NavBar() {
   return (
     <nav className="nav-bar">
       <Search />
+      <Logo />
       <p className="num-results">
         Found <strong>X</strong> results
       </p>
