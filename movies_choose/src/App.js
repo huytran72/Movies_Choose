@@ -91,7 +91,9 @@ function Search() {
   );
 }
 
-function Numresults() {}
+function Numresults() {
+  return ();
+}
 
 function Main() {
   const [movies, setMovies] = useState(tempMovieData);
