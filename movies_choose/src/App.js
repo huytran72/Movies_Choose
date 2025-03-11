@@ -76,6 +76,8 @@ function NavBar() {
   );
 }
 
+function Search() {}
+
 function Main() {
   const [movies, setMovies] = useState(tempMovieData);
   const [watched, setWatched] = useState(tempWatchedData);
