@@ -102,10 +102,10 @@ function NumResults() {
 
 function Main() {
   return (
-  <main className="main">
-    <ListBox />
-    <WatchedBox />
-  </main>;
+    <main className="main">
+      <ListBox />
+      <WatchedBox />
+    </main>
   );
 }
 
