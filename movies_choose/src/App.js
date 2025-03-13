@@ -101,9 +101,7 @@ function NumResults() {
 }
 
 function Main() {
-  const [movies, setMovies] = useState(tempMovieData);
   const [watched, setWatched] = useState(tempWatchedData);
-  const [isOpen1, setIsOpen1] = useState(true);
   const [isOpen2, setIsOpen2] = useState(true);
 
   const avgImdbRating = average(watched.map((movie) => movie.imdbRating));
@@ -173,6 +171,9 @@ function Main() {
 }
 
 function ListBox() {
+  const [movies, setMovies] = useState(tempMovieData);
+  const [isOpen1, setIsOpen1] = useState(true);
+
   return (
     <div className="box">
       <button
