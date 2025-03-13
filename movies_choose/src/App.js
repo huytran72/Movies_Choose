@@ -110,7 +110,6 @@ function Main() {
 }
 
 function ListBox() {
-  const [movies, setMovies] = useState(tempMovieData);
   const [isOpen1, setIsOpen1] = useState(true);
 
   return (
@@ -127,6 +126,8 @@ function ListBox() {
 }
 
 function MovieList() {
+  const [movies, setMovies] = useState(tempMovieData);
+
   return (
     <ul className="list">
       {movies?.map((movie) => (
