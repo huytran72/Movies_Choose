@@ -170,7 +170,7 @@ function WatchedBox() {
       </button>
       {isOpen2 && (
         <>
-          <WatchedBox />
+          <WatchedBox watched={watched} />
           <ul className="list">
             {watched.map((movie) => (
               <li key={movie.imdbID}>
