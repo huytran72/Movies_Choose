@@ -214,3 +214,5 @@ function WatchedMoviesList({ watched }) {
     </ul>
   );
 }
+
+function WatchedMovie({ movie }) {}
