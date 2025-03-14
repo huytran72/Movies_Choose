@@ -167,6 +167,7 @@ function WatchedBox() {
       {isOpen2 && (
         <>
           <WatchedBox watched={watched} />
+          <WatchedMoviesList watched={watched} />
         </>
       )}
     </div>
