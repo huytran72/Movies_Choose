@@ -166,7 +166,7 @@ function WatchedBox() {
       </button>
       {isOpen2 && (
         <>
-          <WatchedBox watched={watched} />
+          <WatchedSummary watched={watched} />
           <WatchedMoviesList watched={watched} />
         </>
       )}
