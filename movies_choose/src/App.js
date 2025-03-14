@@ -197,3 +197,5 @@ function WatchedBox() {
     </div>
   );
 }
+
+function WatchedSummary() {}
