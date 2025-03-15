@@ -128,8 +128,6 @@ function ListBox({ movies }) {
 }
 
 function MovieList({ movies }) {
-  const [movies, setMovies] = useState(tempMovieData);
-
   return (
     <ul className="list">
       {movies?.map((movie) => (
