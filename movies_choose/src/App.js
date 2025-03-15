@@ -102,7 +102,7 @@ function NumResults() {
   );
 }
 
-function Main() {
+function Main({ movies }) {
   return (
     <main className="main">
       <ListBox />
