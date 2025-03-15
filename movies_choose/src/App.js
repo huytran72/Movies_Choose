@@ -66,7 +66,7 @@ function NavBar({ movies }) {
     <nav className="nav-bar">
       <Logo />
       <Search />
-      <NumResults />
+      <NumResults movies={movies} />
     </nav>
   );
 }
