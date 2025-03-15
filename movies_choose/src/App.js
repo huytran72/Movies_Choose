@@ -56,7 +56,7 @@ export default function App() {
   return (
     <div>
       <NavBar />
-      <Main />;
+      <Main movies={movies} />;
     </div>
   );
 }
