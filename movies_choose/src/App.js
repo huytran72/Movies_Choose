@@ -127,7 +127,7 @@ function ListBox({ movies }) {
   );
 }
 
-function MovieList() {
+function MovieList({ movies }) {
   const [movies, setMovies] = useState(tempMovieData);
 
   return (
