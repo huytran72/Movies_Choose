@@ -55,8 +55,11 @@ export default function App() {
 
   return (
     <div>
-      <NavBar movies={movies} ><Logo />
-      <Search />
+      <NavBar movies={movies}>
+        <Logo />
+        <Search />
+        <NumResults movies={movies} />
+      </NavBar>
       <Main movies={movies} />;
     </div>
   );
