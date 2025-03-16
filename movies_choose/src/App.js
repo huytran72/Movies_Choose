@@ -105,12 +105,7 @@ function NumResults({ movies }) {
 }
 
 function Main({ children }) {
-  return (
-    <main className="main">
-      <ListBox movies={movies} />
-      <WatchedBox />
-    </main>
-  );
+  return <main className="main">{children}</main>;
 }
 
 function ListBox({ movies }) {
