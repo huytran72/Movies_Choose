@@ -66,13 +66,7 @@ export default function App() {
 }
 
 function NavBar({ children }) {
-  return (
-    <nav className="nav-bar">
-      <Logo />
-      <Search />
-      <NumResults movies={movies} />
-    </nav>
-  );
+  return <nav className="nav-bar">{children}</nav>;
 }
 
 function Logo() {
