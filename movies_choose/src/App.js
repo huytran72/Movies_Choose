@@ -61,7 +61,7 @@ export default function App() {
   );
 }
 
-function NavBar({ movies }) {
+function NavBar({ children }) {
   return (
     <nav className="nav-bar">
       <Logo />
