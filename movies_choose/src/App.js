@@ -104,7 +104,7 @@ function NumResults({ movies }) {
   );
 }
 
-function Main({ movies }) {
+function Main({ children }) {
   return (
     <main className="main">
       <ListBox movies={movies} />
