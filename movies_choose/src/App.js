@@ -60,7 +60,9 @@ export default function App() {
         <NumResults movies={movies} />
       </NavBar>
       <Main>
-        <ListBox movies={movies}></ListBox>
+        <ListBox movies={movies}>
+          <MovieList movies={movies} />
+        </ListBox>
         <WatchedBox />
       </Main>
     </div>
