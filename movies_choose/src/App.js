@@ -59,7 +59,7 @@ export default function App() {
         <Search />
         <NumResults movies={movies} />
       </NavBar>
-      <Main movies={movies}>
+      <Main>
         <ListBox movies={movies} />
         <WatchedBox />
       </Main>
