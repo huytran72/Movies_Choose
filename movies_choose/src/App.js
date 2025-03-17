@@ -122,7 +122,7 @@ function ListBox({ children }) {
       >
         {isOpen1 ? "–" : "+"}
       </button>
-      {isOpen1 && <MovieList movies={movies} />}
+      {isOpen1 && { children }}
     </div>
   );
 }
