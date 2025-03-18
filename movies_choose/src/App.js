@@ -121,7 +121,7 @@ function Main({ element }) {
   return <main className="main">{element}</main>;
 }
 
-function Box({ children }) {
+function Box({ element }) {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
