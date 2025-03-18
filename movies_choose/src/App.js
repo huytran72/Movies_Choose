@@ -63,7 +63,6 @@ export default function App() {
         <Box>
           <MovieList movies={movies} />
         </Box>
-        <WatchedBox />
       </Main>
     </div>
   );
