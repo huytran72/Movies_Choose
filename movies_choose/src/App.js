@@ -67,8 +67,8 @@ export default function App() {
         </Box>
 
         <Box>
-          <WatchedSummary watched={tempWatchedData} />
-          <WatchedMoviesList watched={tempWatchedData} />
+          <WatchedSummary watched={watched} />
+          <WatchedMoviesList watched={watched} />
         </Box>
       </Main>
     </div>
