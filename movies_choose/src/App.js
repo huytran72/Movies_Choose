@@ -63,6 +63,8 @@ export default function App() {
         <Box>
           <MovieList movies={movies} />
         </Box>
+
+        <Box></Box>
       </Main>
     </div>
   );
