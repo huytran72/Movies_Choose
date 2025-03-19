@@ -63,6 +63,7 @@ export default function App() {
 
       <Main>
         <Box element={<MovieList movies={movies} />} />
+        <Box></Box>
 
         {/* <Box>
           <MovieList movies={movies} />
