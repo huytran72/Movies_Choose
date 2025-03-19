@@ -122,7 +122,7 @@ function NumResults({ movies }) {
 }
 
 function Main({ children }) {
-  return <main className="main">{element}</main>;
+  return <main className="main">{children}</main>;
 }
 
 function Box({ children }) {
@@ -133,7 +133,7 @@ function Box({ children }) {
       <button className="btn-toggle" onClick={() => setIsOpen((open) => !open)}>
         {isOpen ? "–" : "+"}
       </button>
-      {isOpen && element}
+      {isOpen && children}
     </div>
   );
 }
