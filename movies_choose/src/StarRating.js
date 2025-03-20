@@ -1,8 +1,8 @@
 export default function StarRating({ rating, setRating }) {
     const containerStyle = {
         display: "flex",
-        flexDirection: "column",
         alignItems: "center",
+        gap: "16px",
     };
 
 
