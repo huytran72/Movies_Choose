@@ -1,1 +1,3 @@
-export default function StarRating({ rating, setRating }) {}
+export default function StarRating({ rating, setRating }) {
+    return ()
+}
