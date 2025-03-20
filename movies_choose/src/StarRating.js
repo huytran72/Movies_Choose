@@ -1,3 +1,3 @@
 export default function StarRating({ rating, setRating }) {
-    return ()
+  return <div></div>;
 }
