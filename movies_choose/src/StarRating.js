@@ -4,6 +4,8 @@ const containerStyle = {
   gap: "16px",
 };
 
+const starStyle = {};
+
 export default function StarRating({ rating, setRating }) {
   return (
     <div style={containerStyle}>
