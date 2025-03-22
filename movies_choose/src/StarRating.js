@@ -19,7 +19,7 @@ export default function StarRating({ maxRating = 5 }) {
     <div style={containerStyle}>
       <div>
         {Array.from({ length: maxRating }, (_, i) => (
-          <span>S{i + 1}</span>
+          <Star key={i} />
         ))}
       </div>
 
