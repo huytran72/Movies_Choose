@@ -4,7 +4,7 @@ const containerStyle = {
   gap: "16px",
 };
 
-const starStyle = {
+const starContainerStyle = {
   display: "flex",
   gap: "4px",
 };
