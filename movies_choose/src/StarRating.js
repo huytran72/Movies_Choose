@@ -9,7 +9,9 @@ const starContainerStyle = {
   gap: "4px",
 };
 
-const textStyle = {};
+const textStyle = {
+  lineHeight: "0",
+};
 
 export default function StarRating({ rating, setRating }) {
   return (
