@@ -23,7 +23,7 @@ export default function StarRating({ rating, setRating }) {
         ))}
       </div>
 
-      <p>10</p>
+      <p style={textStyle}>10</p>
     </div>
   );
 }
