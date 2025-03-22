@@ -14,7 +14,7 @@ const textStyle = {
   margin: "0",
 };
 
-export default function StarRating({ rating, setRating }) {
+export default function StarRating({ maxRating }) {
   return (
     <div style={containerStyle}>
       <div>
