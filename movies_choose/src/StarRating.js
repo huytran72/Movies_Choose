@@ -28,6 +28,8 @@ export default function StarRating({ maxRating = 5 }) {
   );
 }
 
+const starStyle = {};
+
 function Star({ selected = false }) {
   return (
     <span>
