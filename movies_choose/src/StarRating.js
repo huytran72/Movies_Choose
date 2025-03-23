@@ -30,6 +30,7 @@ export default function StarRating({ maxRating = 5 }) {
 
 const starStyle = {
   width: "48px",
+  height: "48px",
 };
 
 function Star({ selected = false }) {
