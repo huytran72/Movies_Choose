@@ -28,7 +28,9 @@ export default function StarRating({ maxRating = 5 }) {
   );
 }
 
-const starStyle = {};
+const starStyle = {
+  width: "48px",
+};
 
 function Star({ selected = false }) {
   return (
