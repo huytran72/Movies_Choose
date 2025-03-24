@@ -19,6 +19,8 @@ const textStyle = {
 export default function StarRating({ maxRating = 5 }) {
   const [rating, setRating] = useState(0);
 
+  function handleRating() {}
+
   return (
     <div style={containerStyle}>
       <div style={starContainerStyle}>
