@@ -39,7 +39,7 @@ const starStyle = {
   cursor: "pointer",
 };
 
-function Star({ selected = false }) {
+function Star({ onClick }) {
   return (
     <span role="'button" style={starStyle}>
       <svg
