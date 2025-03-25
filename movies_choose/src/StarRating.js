@@ -43,7 +43,7 @@ const starStyle = {
   cursor: "pointer",
 };
 
-function Star({ onRate }) {
+function Star({ onRate, full }) {
   return (
     <span role="'button" style={starStyle} onClick={onRate}>
       <svg
