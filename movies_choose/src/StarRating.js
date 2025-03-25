@@ -55,6 +55,7 @@ function Star({ onRate, full }) {
       style={starStyle}
       onClick={onRate}
       onMouseEnter={() => console.log("Enter")}
+      onMouseLeave={() => console.log("Leave")}
     >
       {full ? (
         <svg
