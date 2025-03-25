@@ -46,7 +46,6 @@ const starStyle = {
 function Star({ onRate, full }) {
   return (
     <span role="'button" style={starStyle} onClick={onRate}>
-      {" "}
       {full ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
