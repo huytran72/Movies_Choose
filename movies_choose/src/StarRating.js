@@ -33,6 +33,7 @@ export default function StarRating({ maxRating = 5 }) {
             full={rating >= i + 1}
             onRate={() => handleRating(i + 1)}
             onHover={() => setTempRating(i + 1)}
+            onHoverOut={() => setTempRating(0)}
           />
         ))}
       </div>
