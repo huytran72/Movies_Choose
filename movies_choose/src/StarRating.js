@@ -56,7 +56,7 @@ function Star({ onRate, full, onHover, onHoverOut }) {
       role="'button"
       style={starStyle}
       onClick={onRate}
-      onMouseEnter={() => console.log("Enter")}
+      onMouseEnter={onHoverIn}
       onMouseLeave={() => console.log("Leave")}
     >
       {full ? (
