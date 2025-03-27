@@ -27,6 +27,7 @@ export default function StarRating({
     lineHeight: "0",
     margin: "0",
     color: color,
+    fontSize: `${size / 1.5} px`,
   };
 
   return (
