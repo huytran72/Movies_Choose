@@ -26,6 +26,7 @@ export default function StarRating({
   const textStyle = {
     lineHeight: "0",
     margin: "0",
+    color: color,
   };
 
   return (
