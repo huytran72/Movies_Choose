@@ -16,7 +16,7 @@ const textStyle = {
   margin: "0",
 };
 
-export default function StarRating({ maxRating = 5 }) {
+export default function StarRating({ maxRating = 5, color, size }) {
   const [rating, setRating] = useState(0);
   const [temRating, setTempRating] = useState(0);
 
