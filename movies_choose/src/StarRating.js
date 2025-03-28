@@ -52,7 +52,7 @@ export default function StarRating({
 }
 
 const starStyle = {
-  width: "48px",
+  width: `${size}px`,
   height: "48px",
   display: "block",
   cursor: "pointer",
