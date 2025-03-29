@@ -50,7 +50,7 @@ export default function StarRating({
 
       <p style={textStyle}>
         {messages.length === maxRating
-          ? messages[rating - 1]
+          ? messages[temRating ? temRating - 1 : rating - 1]
           : temRating || rating || ""}
       </p>
     </div>
