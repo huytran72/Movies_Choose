@@ -48,7 +48,11 @@ export default function StarRating({
         ))}
       </div>
 
-      <p style={textStyle}>{temRating || rating || ""}</p>
+      <p style={textStyle}>
+        {messages.length === maxRating
+          ? messages[rating - 1]
+          : temRating || rating || ""}
+      </p>
     </div>
   );
 }
