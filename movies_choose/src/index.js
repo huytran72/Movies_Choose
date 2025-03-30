@@ -6,7 +6,11 @@ import ReactDOM from "react-dom/client";
 import StarRating from "./StarRating";
 
 function Test() {
-  return <StarRating color="blue" />;
+  return (
+    <div>
+      <StarRating color="blue" />;
+    </div>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
