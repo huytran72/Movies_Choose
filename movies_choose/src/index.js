@@ -6,12 +6,12 @@ import ReactDOM from "react-dom/client";
 import StarRating from "./StarRating";
 
 function Test() {
-  const [movieRating, setMovieRating] = React.useState(0);
+  const [movieRating, setMovieRating] = useState(0);
 
   return (
     <div>
       <StarRating color="blue" maxRating={10} />
-      <p>This movie was rated X stars</p>
+      <p>This movie was rated {movieRating} stars</p>
     </div>
   );
 }
