@@ -6,6 +6,8 @@ import ReactDOM from "react-dom/client";
 import StarRating from "./StarRating";
 
 function Test() {
+  const [movieRating, setMovieRating] = React.useState(0);
+
   return (
     <div>
       <StarRating color="blue" maxRating={10} />
