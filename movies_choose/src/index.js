@@ -11,7 +11,7 @@ function Test() {
 
   return (
     <div>
-      <StarRating color="blue" maxRating={10} />
+      <StarRating color="blue" maxRating={10} onSetRating={setMovieRating} />
       <p>This movie was rated {movieRating} stars</p>
     </div>
   );
