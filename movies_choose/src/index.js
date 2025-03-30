@@ -8,7 +8,7 @@ import StarRating from "./StarRating";
 function Test() {
   return (
     <div>
-      <StarRating color="blue" />
+      <StarRating color="blue" maxRating={10} />
       <p>This movie was rated X stars</p>
     </div>
   );
