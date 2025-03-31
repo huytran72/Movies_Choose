@@ -15,6 +15,7 @@ StarRating.propTypes = {
   maxRating: PropTypes.number,
   color: PropTypes.string,
   size: PropTypes.number,
+  className: PropTypes.string,
 };
 
 export default function StarRating({
