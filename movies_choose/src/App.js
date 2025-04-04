@@ -56,7 +56,7 @@ export default function App() {
   const [movies, setMovies] = useState(tempMovieData);
   const [watched, setWatched] = useState(tempWatchedData);
 
-  fetch(`https://www.omdbapi.com/?apikey={KEY}&`);
+  fetch(`https://www.omdbapi.com/?apikey={KEY}&s=interstellar`);
 
   return (
     <div>
