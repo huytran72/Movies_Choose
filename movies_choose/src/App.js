@@ -56,9 +56,9 @@ export default function App() {
   const [movies, setMovies] = useState(tempMovieData);
   const [watched, setWatched] = useState(tempWatchedData);
 
-  fetch(`https://www.omdbapi.com/?apikey={KEY}&s=interstellar`).then((res) => res.json()).then((data) => {
-    console.log(data);
-  }
+  fetch(`https://www.omdbapi.com/?apikey={KEY}&s=interstellar`)
+    .then((res) => res.json())
+    .then((data) => console.log(data));
 
   return (
     <div>
@@ -66,7 +66,7 @@ export default function App() {
         <Search />
         <NumResults movies={movies} />
       </NavBar>
- 
+
       <Main>
         {/* <Box element={<MovieList movies={movies} />} />
         <Box>
