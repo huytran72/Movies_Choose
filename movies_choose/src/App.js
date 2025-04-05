@@ -54,7 +54,7 @@ const KEY = "f84fc31d";
 
 export default function App() {
   const [movies, setMovies] = useState([]);
-  const [watched, setWatched] = useState(tempWatchedData);
+  const [watched, setWatched] = useState([]);
 
   fetch(`https://www.omdbapi.com/?apikey={KEY}&s=interstellar`)
     .then((res) => res.json())
