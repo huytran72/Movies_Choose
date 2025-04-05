@@ -64,10 +64,6 @@ export default function App() {
       const data = await res.json();
       setMovies(data.Search);
     }
-
-    fetch(`https://www.omdbapi.com/?apikey={KEY}&s=interstellar`)
-      .then((res) => res.json())
-      .then((data) => setMovies(data.Search));
   }, []);
 
   return (
