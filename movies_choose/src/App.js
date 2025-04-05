@@ -56,7 +56,7 @@ export default function App() {
   const [movies, setMovies] = useState([]);
   const [watched, setWatched] = useState([]);
 
-  useEffect(() => {}
+  useEffect(function () {});
 
   fetch(`https://www.omdbapi.com/?apikey={KEY}&s=interstellar`)
     .then((res) => res.json())
