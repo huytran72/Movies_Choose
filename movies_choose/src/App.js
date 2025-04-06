@@ -65,6 +65,7 @@ export default function App() {
       const data = await res.json();
       setMovies(data.Search);
       console.log(movies);
+      console.log(data.Search);
     }
     fetchMovies();
   }, []);
