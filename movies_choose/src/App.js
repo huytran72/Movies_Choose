@@ -55,6 +55,7 @@ const KEY = "f84fc31d";
 export default function App() {
   const [movies, setMovies] = useState([]);
   const [watched, setWatched] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
   const query = "interstellar";
 
   useEffect(function () {
