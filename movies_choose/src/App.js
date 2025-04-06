@@ -92,6 +92,8 @@ export default function App() {
   );
 }
 
+function Loader() {}
+
 function NavBar({ children }) {
   return (
     <nav className="nav-bar">
