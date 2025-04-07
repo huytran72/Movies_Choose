@@ -74,7 +74,7 @@ export default function App() {
         // console.log(data.Search);
         setIsLoading(false);
       } catch (err) {
-        console.error(err);
+        console.error(err.message);
       }
     }
     fetchMovies();
