@@ -106,7 +106,11 @@ function Loader() {
 }
 
 function ErrorMessage({ error }) {
-  return <p className="error"></p>;
+  return (
+    <p className="error">
+      <span>⛔️</span> {message}
+    </p>
+  );
 }
 
 function NavBar({ children }) {
