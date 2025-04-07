@@ -76,6 +76,7 @@ export default function App() {
         setIsLoading(false);
       } catch (err) {
         console.error(err.message);
+        setError(err.message);
       }
     }
     fetchMovies();
