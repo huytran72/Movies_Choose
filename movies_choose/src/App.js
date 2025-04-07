@@ -60,18 +60,20 @@ export default function App() {
 
   useEffect(function () {
     async function fetchMovies() {
-      try {setIsLoading(true);
-      const res = await fetch(
-        `https://www.omdbapi.com/?apikey=${KEY}&s=${query}`
-      );
+      try {
+        setIsLoading(true);
+        const res = await fetch(
+          `https://www.omdbapi.com/?apikey=${KEY}&s=${query}`
+        );
 
-      if (!res.ok) throw new Error("Something went wrong with the API");
+        if (!res.ok) throw new Error("Something went wrong with the API");
 
-      const data = await res.json();
-      setMovies(data.Search);
-      // console.log(movies);
-      // console.log(data.Search);
-      setIsLoading(false);}
+        const data = await res.json();
+        setMovies(data.Search);
+        // console.log(movies);
+        // console.log(data.Search);
+        setIsLoading(false);
+      } catch (err) {}
     }
     fetchMovies();
   }, []);
