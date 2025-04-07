@@ -92,6 +92,7 @@ export default function App() {
       <Main>
         <Box>
           {/* {isLoading ? <Loader /> : <MovieList movies={movies} />} */}
+          {isLoading && !error && <MovieList movies={tempMovieData} />}
         </Box>
 
         <Box>
