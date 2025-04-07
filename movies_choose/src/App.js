@@ -65,8 +65,7 @@ export default function App() {
         `https://www.omdbapi.com/?apikey=${KEY}&s=${query}`
       );
 
-      if (!res.ok) {
-      }
+      if (!res.ok) throw new Error("Something went wrong with the API");
 
       const data = await res.json();
       setMovies(data.Search);
