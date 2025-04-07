@@ -105,7 +105,9 @@ function Loader() {
   return <p className="loader">Loading...</p>;
 }
 
-function ErrorMessage({ error }) {}
+function ErrorMessage({ error }) {
+  return <p className="error"></p>;
+}
 
 function NavBar({ children }) {
   return (
