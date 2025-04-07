@@ -105,7 +105,7 @@ function Loader() {
   return <p className="loader">Loading...</p>;
 }
 
-function ErrorMessage({ error }) {
+function ErrorMessage({ message }) {
   return (
     <p className="error">
       <span>⛔️</span> {message}
