@@ -69,9 +69,9 @@ export default function App() {
 
         if (!res.ok) throw new Error("Something went wrong with the API");
 
-        if (res.status === 404) throw new Error("Movie not found");
-
         const data = await res.json();
+        if (res.Response === "False") throw new Error("Movie not found");
+
         setMovies(data.Search);
         // console.log(movies);
         // console.log(data.Search);
