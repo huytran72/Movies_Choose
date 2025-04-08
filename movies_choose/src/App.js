@@ -73,11 +73,11 @@ export default function App() {
         setMovies(data.Search);
         // console.log(movies);
         // console.log(data.Search);
-        setIsLoading(false);
       } catch (err) {
         console.error(err.message);
         setError(err.message);
       } finally {
+        setIsLoading(false);
       }
     }
     fetchMovies();
