@@ -74,7 +74,7 @@ export default function App() {
 
         setMovies(data.Search);
         console.log(movies);
-        // console.log(data.Search);
+        console.log(data.Search);
       } catch (err) {
         console.error(err.message);
         setError(err.message);
