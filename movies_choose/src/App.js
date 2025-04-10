@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
 
 const tempMovieData = [
   {
@@ -59,6 +59,8 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState("");
   const temQuery = "interstellar";
+
+  useEffect(function () {}
 
   useEffect(function () {
     async function fetchMovies() {
