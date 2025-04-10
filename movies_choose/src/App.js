@@ -60,7 +60,7 @@ export default function App() {
   const [error, setError] = useState("");
   const temQuery = "interstellar";
 
-  useEffect(function () {}
+  useEffect(function () {}, []);
 
   useEffect(function () {
     async function fetchMovies() {
