@@ -102,7 +102,7 @@ export default function App() {
         }
       }
 
-      if (!query) {
+      if (!query.length) {
       }
 
       fetchMovies();
