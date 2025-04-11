@@ -101,6 +101,10 @@ export default function App() {
           setIsLoading(false);
         }
       }
+
+      if (!query) {
+      }
+
       fetchMovies();
     },
     [query]
