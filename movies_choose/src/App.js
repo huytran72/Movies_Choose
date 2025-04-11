@@ -64,7 +64,9 @@ export default function App() {
     console.log("After initial render");
   }, []);
 
-  useEffect(function () {}
+  useEffect(function () {
+    console.log("After every render");
+  });
 
   useEffect(function () {
     async function fetchMovies() {
