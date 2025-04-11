@@ -64,6 +64,8 @@ export default function App() {
     console.log("After initial render");
   }, []);
 
+  useEffect(function () {}
+
   useEffect(function () {
     async function fetchMovies() {
       try {
