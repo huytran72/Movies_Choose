@@ -59,7 +59,6 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState("");
   const [selectedID, setselectedID] = useState(null);
-  const temQuery = "interstellar";
 
   /*
   useEffect(function () {
