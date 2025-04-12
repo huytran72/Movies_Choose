@@ -129,7 +129,9 @@ export default function App() {
         </Box>
 
         <Box>
-          {<WatchedSummary watched={watched} />
+          {
+            selectedID ? <Mo
+            <WatchedSummary watched={watched} />
           <WatchedMoviesList watched={watched} />}
         </Box>
       </Main>
@@ -252,7 +254,7 @@ function Movie({ movie }) {
 //   );
 // }
 
-function SelectedMovie({ selectedID, setselectedID }) {
+function MovieDetails{ selectedID, setselectedID }) {
   return <div className="details">{selectedID}</div>;
 }
 
