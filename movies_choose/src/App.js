@@ -130,7 +130,7 @@ export default function App() {
 
         <Box>
           {
-            selectedID ? <MovieDetails selectedID={selectedID}/>
+            selectedID ? (<MovieDetails selectedID={selectedID} />) : ( <>
             <WatchedSummary watched={watched} />
           <WatchedMoviesList watched={watched} />}
         </Box>
