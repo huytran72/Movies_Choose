@@ -252,7 +252,9 @@ function Movie({ movie }) {
 //   );
 // }
 
-function SelectedMovie({ selectedID, setselectedID }) {}
+function SelectedMovie({ selectedID, setselectedID }) {
+  return <div className="details">{selectedID}</div>;
+}
 
 function WatchedSummary({ watched }) {
   const avgImdbRating = average(watched.map((movie) => movie.imdbRating));
