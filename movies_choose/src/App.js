@@ -77,6 +77,8 @@ export default function App() {
   );
   */
 
+function handleSelectMovie(id) {}
+
   useEffect(
     function () {
       async function fetchMovies() {
