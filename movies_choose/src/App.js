@@ -77,7 +77,9 @@ export default function App() {
   );
   */
 
-function handleSelectMovie(id) {}
+function handleSelectMovie(id) {
+  setselectedID(id);
+}
 
   useEffect(
     function () {
