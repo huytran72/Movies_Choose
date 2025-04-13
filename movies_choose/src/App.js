@@ -129,12 +129,12 @@ export default function App() {
         </Box>
 
         <Box>
-          {
-            selectedID ? (<MovieDetails selectedID={selectedID} />) : ( <>
+          {selectedID ? ( 
+            <MovieDetails selectedID={selectedID} /> ) : ( <>
             <WatchedSummary watched={watched} />
-          <WatchedMoviesList watched={watched} />
-          </>)
-          }
+            <WatchedMoviesList watched={watched} />
+          </>
+          )}
         </Box>
       </Main>
     </div>
