@@ -272,7 +272,9 @@ function Movie({ movie, onSelectMovie }) {
 // }
 
 function MovieDetails({ selectedID, onCloseMovie }) {
-  return <div className="details">{selectedID}</div>;
+  return <div className="details">
+    <button className="btn-back" onClick={onCloseMovie}>
+    {selectedID}</div>;
 }
 
 function WatchedSummary({ watched }) {
