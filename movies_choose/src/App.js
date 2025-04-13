@@ -81,7 +81,9 @@ export default function App() {
     setselectedID(id);
   }
 
-  function handleCloseMovie() {}
+  function handleCloseMovie() {
+    setselectedID(null);
+  }
 
   useEffect(
     function () {
