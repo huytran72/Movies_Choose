@@ -78,7 +78,7 @@ export default function App() {
   */
 
   function handleSelectMovie(id) {
-    setselectedID(selectedID === id ? null : id);
+    setselectedID((selectedID) => (id === selectedID ? null : id));
   }
 
   function handleCloseMovie() {
