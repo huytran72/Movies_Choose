@@ -271,7 +271,7 @@ function Movie({ movie, onSelectMovie }) {
 //   );
 // }
 
-function MovieDetails({ selectedID, setselectedID }) {
+function MovieDetails({ selectedID, onCloseMovie }) {
   return <div className="details">{selectedID}</div>;
 }
 
