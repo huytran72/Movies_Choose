@@ -81,6 +81,8 @@ export default function App() {
     setselectedID(id);
   }
 
+  function handleCloseMovie() {}
+
   useEffect(
     function () {
       async function fetchMovies() {
