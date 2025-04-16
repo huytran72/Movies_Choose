@@ -139,7 +139,9 @@ export default function App() {
         </Box>
 
         <Box>
-          {<WatchedSummary watched={watched} />
+          {
+            selectedID ? <Mov
+            <WatchedSummary watched={watched} />
           <WatchedMoviesList watched={watched} />}
         </Box>
       </Main>
@@ -239,9 +241,6 @@ function Movie({ movie, onSelectMovie }) {
   );
 }
 
-function selectedMovie({ selectedID }) {
-  return <div className="details">{selectedID}</div>;
-}
 
 // function WatchedBox() {
 //   const [watched, setWatched] = useState(tempWatchedData);
