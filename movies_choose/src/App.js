@@ -248,6 +248,8 @@ function Movie({ movie, onSelectMovie }) {
   );
 }
 
+function selectedMovie({ selectedID, onCloseMovie }) {}
+
 // function WatchedBox() {
 //   const [watched, setWatched] = useState(tempWatchedData);
 //   const [isOpen2, setIsOpen2] = useState(true);
