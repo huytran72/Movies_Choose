@@ -139,17 +139,8 @@ export default function App() {
         </Box>
 
         <Box>
-          {selectedID ? (
-            <MovieDetails
-              selectedID={selectedID}
-              onCloseMovie={handleCloseMovie}
-            />
-          ) : (
-            <>
-              <WatchedSummary watched={watched} />
-              <WatchedMoviesList watched={watched} />
-            </>
-          )}
+          <WatchedSummary watched={watched} />
+          <WatchedMoviesList watched={watched} />
         </Box>
       </Main>
     </div>
