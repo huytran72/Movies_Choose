@@ -139,10 +139,14 @@ export default function App() {
         </Box>
 
         <Box>
-          {
-            selectedID ? <MovieDetails selectedID={selectedID}/> : 
-            <WatchedSummary watched={watched} />
-          <WatchedMoviesList watched={watched} />}
+          {selectedID ? (
+            <MovieDetails selectedID={selectedID} />
+          ) : (
+            <>
+              <WatchedSummary watched={watched} />
+              <WatchedMoviesList watched={watched} />
+            </>
+          )}
         </Box>
       </Main>
     </div>
@@ -240,7 +244,6 @@ function Movie({ movie, onSelectMovie }) {
     </li>
   );
 }
-
 
 // function WatchedBox() {
 //   const [watched, setWatched] = useState(tempWatchedData);
