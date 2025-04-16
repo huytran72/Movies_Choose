@@ -248,7 +248,7 @@ function Movie({ movie, onSelectMovie }) {
   );
 }
 
-function selectedMovie({ selectedID, onCloseMovie }) {
+function selectedMovie({ selectedID }) {
   return <div className="details">{selectedID}</div>;
 }
 
