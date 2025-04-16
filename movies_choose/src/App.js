@@ -248,7 +248,9 @@ function Movie({ movie, onSelectMovie }) {
   );
 }
 
-function selectedMovie({ selectedID, onCloseMovie }) {}
+function selectedMovie({ selectedID, onCloseMovie }) {
+  return <div className="details">{selectedID}</div>;
+}
 
 // function WatchedBox() {
 //   const [watched, setWatched] = useState(tempWatchedData);
