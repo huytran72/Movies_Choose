@@ -271,7 +271,7 @@ function Movie({ movie, onSelectMovie }) {
 //   );
 // }
 
-function MovieDetails({ selectedID, onCloseMovie }) {
+function MovieDetails({ selectedId, onCloseMovie }) {
   useEffect(function () {
     async function getMovieDetails() {
       const res = await fetch(
