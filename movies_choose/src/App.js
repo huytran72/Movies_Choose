@@ -272,7 +272,9 @@ function Movie({ movie, onSelectMovie }) {
 // }
 
 function MovieDetails({ selectedID, onCloseMovie }) {
-  useEffect(function () {}, []);
+  useEffect(function () {
+    async function getMovieDetails() {}
+  }, []);
 
   return (
     <div className="details">
