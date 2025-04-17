@@ -287,6 +287,8 @@ function MovieDetails({ selectedId, onCloseMovie }) {
     Genre: genre,
   } = movie;
 
+  console.log(title, year);
+
   useEffect(function () {
     async function getMovieDetails() {
       const res = await fetch(
