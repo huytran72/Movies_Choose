@@ -284,6 +284,7 @@ function MovieDetails({ selectedId, onCloseMovie }) {
     Released: released,
     Actors: actor,
     Director: director,
+    Genre: genre,
   } = movie;
 
   useEffect(function () {
