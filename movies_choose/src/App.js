@@ -280,6 +280,7 @@ function MovieDetails({ selectedID, onCloseMovie }) {
       const data = await res.json();
       console.log(data);
     }
+    getMovieDetails();
   }, []);
 
   return (
