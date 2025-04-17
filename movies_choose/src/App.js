@@ -278,6 +278,7 @@ function MovieDetails({ selectedID, onCloseMovie }) {
         `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedID}`
       );
       const data = await res.json();
+      console.log(data);
     }
   }, []);
 
