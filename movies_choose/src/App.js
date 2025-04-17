@@ -272,7 +272,7 @@ function Movie({ movie, onSelectMovie }) {
 // }
 
 function MovieDetails({ selectedID, onCloseMovie }) {
-  useEffect(function () {});
+  useEffect(function () {}, []);
 
   return (
     <div className="details">
