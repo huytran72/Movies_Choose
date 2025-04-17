@@ -283,6 +283,7 @@ function MovieDetails({ selectedId, onCloseMovie }) {
     Plot: plot,
     Released: released,
     Actors: actor,
+    Director: director,
   } = movie;
 
   useEffect(function () {
