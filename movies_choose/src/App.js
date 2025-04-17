@@ -274,7 +274,7 @@ function Movie({ movie, onSelectMovie }) {
 function MovieDetails({ selectedId, onCloseMovie }) {
   const [movie, setMovie] = useState();
 
-  const {} = movie;
+  const { Title: title, Year: year, Poster: poster, Runtime: runtime } = movie;
 
   useEffect(function () {
     async function getMovieDetails() {
