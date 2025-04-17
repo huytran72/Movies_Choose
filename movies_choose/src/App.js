@@ -272,6 +272,8 @@ function Movie({ movie, onSelectMovie }) {
 // }
 
 function MovieDetails({ selectedID, onCloseMovie }) {
+  useEffect(function () {});
+
   return (
     <div className="details">
       <button className="btn-back" onClick={onCloseMovie}>
