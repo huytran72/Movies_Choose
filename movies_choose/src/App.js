@@ -272,7 +272,7 @@ function Movie({ movie, onSelectMovie }) {
 // }
 
 function MovieDetails({ selectedId, onCloseMovie }) {
-  const [movie, setMovie] = useState();
+  const [movie, setMovie] = useState({});
 
   const {
     Title: title,
