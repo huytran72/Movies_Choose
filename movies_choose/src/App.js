@@ -306,8 +306,8 @@ function MovieDetails({ selectedId, onCloseMovie }) {
         <button className="btn-back" onClick={onCloseMovie}>
           &larr;
         </button>
-
         <img src={poster} alt={`Poster of ${movie} movie`} />
+        <div className="details-overview"></div>
       </header>
       {selectedId}
     </div>
