@@ -312,7 +312,7 @@ function MovieDetails({ selectedId, onCloseMovie }) {
           <p>
             {released} &bull; {runtime}
           </p>
-          <p></p>
+          <p>{genre}</p>
         </div>
       </header>
       {selectedId}
