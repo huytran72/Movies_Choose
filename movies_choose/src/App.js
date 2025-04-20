@@ -287,6 +287,8 @@ function MovieDetails({ selectedId, onCloseMovie }) {
     Genre: genre,
   } = movie;
 
+  function handleAdd() {}
+
   console.log(title, year);
 
   useEffect(function () {
