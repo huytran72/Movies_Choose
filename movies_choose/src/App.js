@@ -288,6 +288,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
   } = movie;
 
   function handleAdd() {
+    const newWatchedMovie = {};
     onAddWatched(newMovie);
   }
 
