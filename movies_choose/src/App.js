@@ -291,6 +291,8 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
     const newWatchedMovie = {
       imdbID: selectedId,
       Title: title,
+      year,
+      poster,
     };
     onAddWatched(newMovie);
   }
