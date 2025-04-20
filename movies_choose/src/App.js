@@ -287,7 +287,9 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
     Genre: genre,
   } = movie;
 
-  function handleAdd() {}
+  function handleAdd() {
+    onAddWatched(newMovie);
+  }
 
   console.log(title, year);
 
