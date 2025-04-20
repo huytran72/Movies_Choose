@@ -290,6 +290,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
   function handleAdd() {
     const newWatchedMovie = {
       imdbID: selectedId,
+      Title: title,
     };
     onAddWatched(newMovie);
   }
