@@ -296,7 +296,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
       imdbRating: Number(imdbRating),
       runtime: Number(runtime.split(" ").at(0)),
     };
-    onAddWatched(newMovie);
+    onAddWatched(newWatchedMovie);
   }
 
   console.log(title, year);
