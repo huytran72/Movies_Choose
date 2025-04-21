@@ -1,3 +1,4 @@
+import { set } from "express/lib/application";
 import { use, useEffect, useState } from "react";
 
 const tempMovieData = [
@@ -85,7 +86,9 @@ export default function App() {
     setselectedID(null);
   }
 
-  function handleAddWatched(movie) {}
+  function handleAddWatched(movie) {
+    setWatched((watched) => [...watched, movie);
+  }
 
   useEffect(
     function () {
