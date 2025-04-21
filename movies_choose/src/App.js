@@ -299,8 +299,6 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
     onAddWatched(newWatchedMovie);
   }
 
-  console.log(title, year);
-
   useEffect(function () {
     async function getMovieDetails() {
       const res = await fetch(
