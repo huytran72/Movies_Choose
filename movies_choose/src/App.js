@@ -85,6 +85,8 @@ export default function App() {
     setselectedID(null);
   }
 
+  function handleAddWatched(newWatchedMovie) {}
+
   useEffect(
     function () {
       async function fetchMovies() {
