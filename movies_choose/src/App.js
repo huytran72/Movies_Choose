@@ -85,7 +85,7 @@ export default function App() {
     setselectedID(null);
   }
 
-  function handleAddWatched(newWatchedMovie) {}
+  function handleAddWatched(movie) {}
 
   useEffect(
     function () {
