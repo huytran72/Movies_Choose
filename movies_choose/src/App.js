@@ -244,6 +244,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
   const [userRating, setUserRating] = useState("");
 
   const isWatched = watched.map(movie => movie.imdbDB);
+  console.log(isWatched);
 
   const {
     Title: title,
