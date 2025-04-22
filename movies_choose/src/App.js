@@ -243,7 +243,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
   const [isLoading, setIsLoading] = useState(false);
   const [userRating, setUserRating] = useState("");
 
-  const isWatched 
+  const isWatched = watched.map(movie => movie.imdbDB);
 
   const {
     Title: title,
