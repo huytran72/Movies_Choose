@@ -317,7 +317,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
       setMovie(data);
     }
     getMovieDetails();
-  }, []);
+  }, [selectedId]);
 
   return (
     <div className="details">
