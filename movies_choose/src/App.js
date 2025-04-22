@@ -343,7 +343,9 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
         <button className="btn-add" onClick={handleAdd}>
           + Add to list
       </div>
-      <p></p>
+      <p>
+        <em>{plot}</em>
+      </p>
       </section>
 
       {selectedId}
