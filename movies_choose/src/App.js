@@ -61,23 +61,6 @@ export default function App() {
   const [error, setError] = useState("");
   const [selectedID, setselectedID] = useState(null);
 
-  /*
-  useEffect(function () {
-    console.log("After initial render");
-  }, []);
-
-  useEffect(function () {
-    console.log("After every render");
-  });
-
-  useEffect(
-    function () {
-      console.log("D");
-    },
-    [query]
-  );
-  */
-
   function handleSelectMovie(id) {
     setselectedID((selectedID) => (id === selectedID ? null : id));
   }
@@ -149,6 +132,7 @@ export default function App() {
               selectedID={selectedID}
               onCloseMovie={handleCloseMovie}
               onAddWatched={handleAddWatched}
+              watched={watched}
             />
           ) : (
             <>
