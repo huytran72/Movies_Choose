@@ -287,6 +287,13 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
 
   return (
     <div className="details">
+      {isLoading ? (
+        <Loader />
+      ) : (
+        <p className="error">
+          <span>⛔️</span> Movie not found
+        </p>
+      )}
       <header>
         <button className="btn-back" onClick={onCloseMovie}>
           &larr;
