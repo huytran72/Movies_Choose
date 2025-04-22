@@ -316,6 +316,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
       );
       const data = await res.json();
       setMovie(data);
+      setIsLoading(false);
     }
     getMovieDetails();
   }, [selectedId]);
@@ -348,7 +349,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
           + Add to list
         </button>)}
         </div>
-        
+
         <p>
           <em>{plot}</em>
         </p>
