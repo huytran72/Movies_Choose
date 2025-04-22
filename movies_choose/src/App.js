@@ -317,7 +317,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
 
         {userRating > 0 && (<button className="btn-add" onClick={handleAdd}>
           + Add to list
-        </button>)} </> ): (<p>You rated with movie</p>)}
+        </button>)} </> ): (<p>You rated with movie {watchedUserRating}</p>)}
         </div>
 
         <p>
