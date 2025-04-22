@@ -346,6 +346,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
       <p>
         <em>{plot}</em>
       </p>
+      <p>Starring {actor}</p>
       </section>
 
       {selectedId}
