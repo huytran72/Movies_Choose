@@ -291,8 +291,6 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
         <Loader />
       ) : (
         <>
-        
-       
       <header>
         <button className="btn-back" onClick={onCloseMovie}>
           &larr;
@@ -328,8 +326,8 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
         <p>Starring {actor}</p>
       </section>
       </>
-
-      {selectedId}
+        {selectedId}
+      </>
     </div>
   );
 }
