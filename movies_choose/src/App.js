@@ -290,10 +290,9 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
       {isLoading ? (
         <Loader />
       ) : (
-        <p className="error">
-          <span>⛔️</span> Movie not found
-        </p>
-      )}
+        <>
+        
+       
       <header>
         <button className="btn-back" onClick={onCloseMovie}>
           &larr;
@@ -326,6 +325,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
         </p>
         <p>Starring {actor}</p>
       </section>
+      </>
 
       {selectedId}
     </div>
