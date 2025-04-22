@@ -344,9 +344,9 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
         <div className="rating"
         <StarRating maxRating={10} size={24} onSetRating={setUserRating} />
 
-        <button className="btn-add" onClick={handleAdd}>
+        {userRating >0 && (<button className="btn-add" onClick={handleAdd}>
           + Add to list
-        </button>
+        </button>)}
 
         </div>
         <p>
