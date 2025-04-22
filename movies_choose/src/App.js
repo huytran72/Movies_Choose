@@ -311,7 +311,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
 
       <section>
         <div className="rating">
-          {!isWatched ? 
+          {!isWatched ? (
           <>
           <StarRating maxRating={10} size={24} onSetRating={setUserRating} />
 
@@ -325,7 +325,6 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
         </p>
         <p>Starring {actor}</p>
       </section>
-      </>
         {selectedId}
       </>
     </div>
