@@ -337,7 +337,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched }) {
         </div>
       </header>
       <section>
-        <div></div>
+        <div className="rating"></div>
       </section>
 
       {selectedId}
